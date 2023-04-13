@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 5px 10px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+nav a.active {
+    color: red;
+}
+
+strong.error {
+    color: red;
+}
+
+select {
+    margin-left: 10px;
+}
+
+.filter {
+  padding-bottom: 10px;
+}
+
+.login-submit-row {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 20rem;
+    text-align: left;
+    padding-top: 10px;
+}
